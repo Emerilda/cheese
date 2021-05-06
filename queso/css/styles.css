@@ -1,0 +1,104 @@
+/*clase del 23/04/21*/
+header{
+    background-color: #ffbf49;
+
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Sans','Geneva','sans-serif';  /* esto se llama fallback, poner fuentes de repuesto*/
+}
+
+body{
+    background-color: #a07248;
+
+}
+
+article{
+    background-color: #a15252;
+
+}
+
+footer{
+
+    background-color: #df9029;
+}
+/* no es una buena practica realmente
+img{
+    width:200px; height: 200px;
+
+}
+*/
+span img{ /*esto afecta x ej solo a los img dentro e unspan*/
+    width:200px; height: 200px;
+}
+
+.izq{
+    text-align: left; font-size:25px; font-family:'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+.gotcha{
+    text-align: center; 
+    font-size: 50px;
+    color: whitesmoke;
+    text-decoration: underline cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo1{
+    word-spacing: 25px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.parrafo2{
+    text-transform: capitalize;
+}
+
+h4{
+    text-shadow:seagreen;
+    text-decoration: overline underline line-through red;
+}
+
+table{
+    border: 2px dotted purple;
+}
+td{
+    border-right: 2px double blue;
+    border-left: 3px solid green;
+}
+
+button{
+    border-radius: 10px;
+}
+
+ol li{ /*esto es solo la lista ordenada, le cambio el cosito*/
+list-style-type: circle;
+}
+
+ul li{
+    list-style-type: lower-roman;
+}
+
+span{
+    text-align: left; font-size:25px; font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(131, 81, 24);
+ /*width y height no anda con span*/
+    /* display: block; emula un div*/
+}
+
+span div{
+    background-color: rgb(99, 99, 124);
+    border: 2px solid yellow;
+    width: 100px;
+    height: 50px;
+    /* display: inline-block; emula un span*/
+}
+
+#nave{/* esto es un id, se lo puedo poner a uno nomas*/
+    color: #e6cf86;
+    background-color:rgb(65, 53, 43);
+}

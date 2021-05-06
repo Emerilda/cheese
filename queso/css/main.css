@@ -1,0 +1,30 @@
+/* bienvenidx a css. tenemos cafe.
+Esto mismo es un comentario.
+
+*/
+*{      /*afecta el formato general, de TODO*/
+      margin: 10px; padding:11px;
+}
+
+
+@font-face {  
+    font-family: "rosecake"; 
+    src:url('../fonts/rosecake.otf'); 
+
+    font-weight: normal;
+    font-style: normal;
+
+}/*repasar esto en la clase grabada*/
+
+h3,h2{
+    font-family: "rosecake";
+    background-color: #e7862a;
+}
+
+h1{
+    background-color: rgb(228, 148, 44); /*se pinta todo pq sh1 es un elemento en bloque, ocupa todo el ancho de la pantalla*/
+    font-size: 100px;
+    font-family: "rosecake";
+    letter-spacing: 10px;
+    text-align: center;
+}

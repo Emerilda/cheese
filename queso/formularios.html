@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="queso, lacteo, amarillo, gruyere, roquefort">
+    <title>C'est La Brie - Quesería de Calidad</title>
+   
+    <!--favicon YA TENGO FAVICON AAAA QUEMOSION -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--estilos xd-->
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/main.css"> 
+</head>
+<body>
+    <header>
+            <h1>Contacto:</h1>
+    </header>
+    <h4>Si desea conectarse con nosotrxs, deje sus datos en el formulario de abajo y le contactaremos a la brevedad.</h4>
+    <form action="https://formspree.io/f/mdoykawz" method="POST" target="_blank">
+        <!--<label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/>
+        Si el for de label tiene el mismo coso que id de input, se relacionan-->
+            <!--Igual sha fue, ahora se hace asi mira-->
+        <label>Nombre:
+                <input name="nombre" type="text"/>
+        </label>
+    
+        <!--Selector multiple:-->
+        <label>
+            <select name="Selector" id="">
+                <option value="Eligio Java"> Java </option>
+                <option value="eligio Python">  Python</option>
+                <option value="eligió Web"> Web </option>
+            </select>
+        </label>
+
+        <!--Cajita pa escribir-->
+        <label>
+            Comenarios:
+            <textarea name="comentarios" cols= "30" rows= "10">Banana</textarea>
+        </label>
+
+        <!-- Fieldset, cuadradito responsive -->
+        <fieldset>
+            <legend>Datos Personales:</legend>
+            <label>
+                Deporte:
+                <input type="text" name="Deporte"/>
+            </label>
+
+            <label> Bicicleta: 
+                <input type="text" name="Bicicleta" value="cualca bro"/>
+            </label>
+
+        </fieldset>
+
+        <!-- botoncito magico que borra todo input -->
+        <input type="reset" name="reset">
+
+        <!-- dos maneras de usar el boton enviar (IMPORTANTE)-->
+        <input type="submit" name="submit">
+
+       <!-- *los formularios siempre se procesan con un servidor. 
+        uno de ellos es formspreee
+        
+        hay dos servidores generales pa la pagina:
+        netlify.com
+        
+        -->
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>

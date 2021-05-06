@@ -1,0 +1,74 @@
+
+#parrafo-principal{/* esto es un id, se lo puedo poner a uno nomas*/
+    color: #a03497;
+    background-color:lightgreen;
+}
+html{
+    margin:0;
+}
+.padre{
+    border: 1px solid black;
+    width:50vw;
+    height: 50vh;
+    margin: auto;
+    position:relative;
+}
+
+.relative{
+    background-color: lightblue;
+    width: 100px; height: 100px;
+    position:relative;
+    top:50px;
+    left:50px;
+
+}
+
+.absolute{
+    background-color: lightgreen;
+    width: 100px; height: 100px;
+    position: absolute;
+    top: 60px;
+}
+.sticky{
+    background-color: lemonchiffon;
+    width: 100px; height: 100px;
+    position: sticky;
+    top: 20px;
+}
+.fixed{
+    background-color: lightpink;
+    width: 100px; height: 100px;
+    position: fixed;
+    top: 50px;
+}
+/*esto es una clase, se puede aplicar a todo lo que quiera
+.color-verde{
+
+    color:green
+}
+Para Css tiene mas peso una ID que una clase*/
+
+
+/*se define style en distintas formas, enlistadas por la prioridad que se les da:*/
+/* 1. <h1 style= ...>
+    2. <style: > en el head
+    3. definido en estilos.css  */
+
+
+    /*
+    hay varias maneras de poner color:
+    h1{
+        color:red;
+
+        color: #000000;
+        los pares de 0 son rojo, verde y azul respectivamente
+        ej: rojo puro #FF0000
+
+        color: rgb(255,0,0)
+        (los valores van de 0 a 255)
+
+        color: hsl(180deg, 25%, 80%)
+    }    
+    
+    
+    */
